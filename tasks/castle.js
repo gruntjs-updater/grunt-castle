@@ -679,6 +679,7 @@ module.exports = function (grunt) {
                     grunt.log.error('error signal: ' + error.signal);
                     process.exit(error.code || 1);
                 }
+                callback();
             });
         },
         // END COVERAGE
