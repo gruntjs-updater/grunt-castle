@@ -1,82 +1,81 @@
 {
-    "name": "grunt-castle",
-    "description": "requirejs client, server, and client-server unit testing",
-    "version": "0.4.4",
-    "homepage": "https://github.com/walmartlabs/grunt-castle",
-    "author": {
-        "name": "Jason Strimpel",
-        "email": "jstrimpel@walmartlabs.com"
+  "name": "grunt-castle",
+  "description": "requirejs client, server, and client-server unit testing",
+  "version": "0.5.0",
+  "homepage": "https://github.com/walmartlabs/grunt-castle",
+  "author": {
+    "name": "Jason Strimpel",
+    "email": "jstrimpel@walmartlabs.com"
+  },
+  "contributors": [
+    {
+      "name": "Michael Davis",
+      "email": "mdavis@walmartlabs.com"
     },
-    "contributors": [
-        {
-            "name": "Michael Davis",
-            "email": "mdavis@walmartlabs.com"
-        },
-        {
-            "name": "Paul Knepper",
-            "email": "pknepper@walmartlabs.com"
-        },
-        {
-            "name": "Crystal Barnes",
-            "email": "cbarnes@walmartlabs.com"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/walmartlabs/grunt-castle.git"
+    {
+      "name": "Paul Knepper",
+      "email": "pknepper@walmartlabs.com"
     },
-    "bugs": {
-        "url": "https://github.com/walmartlabs/grunt-castle/issues"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "/blob/master/LICENSE-MIT"
-        }
-    ],
-    "main": "Gruntfile.js",
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "scripts": {
-        "test": "grunt test"
-    },
-    "dependencies":{
-        "chai": "1.10.x",
-        "grunt": "0.4.x",
-        "mocha": "1.12.x",
-        "sinon-chai": "2.1.x",
-        "requirejs": "2.1.x",
-        "squirejs": "0.2.x",
-        "grunt-mocha": "0.4.x",
-        "handlebars": "1.0.12",
-        "should": "3.2.x",
-        "sinon-chai": "2.5.x",
-        "grunt-plato": "0.2.x",
-        "mocha-phantomjs": "3.3.x",
-        "jade": "0.27.x",
-        "lodash": "2.4.x",
-        "findup-sync": "0.1.x",
-        "xml2js": "0.4.x",
-        "xml": "0.0.x",
-        "sinon-built": "1.9.x",
-        "async": "0.7.x",
-        "xunit-file": "0.0.5"
-    },
-    "devDependencies": {
-        "grunt-contrib-jshint": "~0.6.0",
-        "grunt-contrib-clean": "~0.4.0",
-        "grunt-contrib-nodeunit": "~0.2.0",
-        "grunt": "~0.4.1"
-    },
-    "peerDependencies": {
-        "grunt": "~0.4.1"
-    },
-    "keywords": [
-        "gruntplugin",
-        "requirejs",
-        "unit testing",
-        "complexity",
-        "static analysis"
-    ]
+    {
+      "name": "Crystal Barnes",
+      "email": "cbarnes@walmartlabs.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walmartlabs/grunt-castle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walmartlabs/grunt-castle/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "chai": "1.10.x",
+    "grunt": "0.4.x",
+    "mocha": "1.12.x",
+    "sinon-chai": "2.5.x",
+    "requirejs": "2.1.x",
+    "squirejs": "0.2.x",
+    "grunt-mocha": "0.4.x",
+    "handlebars": "1.0.12",
+    "should": "3.2.x",
+    "grunt-plato": "0.2.x",
+    "mocha-phantomjs": "3.3.x",
+    "jade": "0.27.x",
+    "lodash": "2.4.x",
+    "findup-sync": "0.1.x",
+    "xml2js": "0.4.x",
+    "xml": "0.0.x",
+    "sinon-built": "1.9.x",
+    "async": "0.7.x",
+    "xunit-file": "0.0.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "requirejs",
+    "unit testing",
+    "complexity",
+    "static analysis"
+  ]
 }
